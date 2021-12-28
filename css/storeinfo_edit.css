@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+.info--write{
+    padding:0 16px;
+}
+textarea {
+    width: 100%;
+    height:60vh;
+    border:none;
+    margin-top: 16px;
+}
+textarea::placeholder{
+    color:#9e9e9e;
+}
+textarea:focus{
+    outline:none;
+}

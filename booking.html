@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
+    <link href="css/booking.css" rel="stylesheet"/>
+    <link href="css/common.css" rel="stylesheet"/>
+    <link href="css/font.css" rel="stylesheet">
+    <title>예약관리</title>
+</head>
+<body>
+    <header class="header">
+        <div class="head">
+            <div class="head__back"><a href="main.html"><img src="image/back_icon.png"></a></div>
+            <div class="head__title">예약관리</div>
+        </div><!--head-->
+    </header>
+    <main class="main">
+        <section class="booking--date">
+            <p>예약일자</p>
+            <input type="date" value=""  min="2021-12-17" max="2021-12-30">
+        </section>
+        <section class="booking--time">
+            <p class="booking--time-title">예약시간</p>
+            <div class="booking--state">
+                <span class="book-ok">예약가능</span>
+                <span class="book-end">예약마감</span>
+                <span class="book-no">예약불가</span>
+            </div>
+            <div class="booking--time-set">
+                <div class="time_select">
+                    <input type="radio" class="ok" id="opSelect01" name="radio" value="" checked/>
+                    <label for="opSelect01" ><span>09 : 00</span></label>
+                    <input type="radio" class="ok" id="opSelect02" name="radio" value=""/>
+                    <label for="opSelect02" ><span>09 : 30</span></label>
+                    <input type="radio" class="ok" id="opSelect03" name="radio" value=""/>
+                    <label for="opSelect03" ><span>10 : 00</span></label>
+                    <input type="radio" class="no" id="opSelect04" name="radio" value=""/>
+                    <label for="opSelect04" ><span>10 : 30</span></label>
+                    <input type="radio" class="no" id="opSelect05" name="radio" value=""/>
+                    <label for="opSelect05" ><span>11 : 00</span></label>
+                    <input type="radio" class="no" id="opSelect06" name="radio" value=""/>
+                    <label for="opSelect06" ><span>11 : 30</span></label>
+                    <input type="radio" class="no" id="opSelect07" name="radio" value=""/>
+                    <label for="opSelect07" ><span>12 : 00</span></label>
+                    <input type="radio" class="ok" id="opSelect08" name="radio" value=""/>
+                    <label for="opSelect08" ><span>12 : 30</span></label>
+                    <input type="radio" class="ok" id="opSelect09" name="radio" value=""/>
+                    <label for="opSelect09" ><span>13 : 30</span></label>
+                    <input type="radio" class="ok" id="opSelect10" name="radio" value=""/>
+                    <label for="opSelect10" ><span>14 : 00</span></label>
+                    <input type="radio" class="ok" id="opSelect11" name="radio" value=""/>
+                    <label for="opSelect11" ><span>14 : 30</span></label>
+                    <input type="radio" class="ok" id="opSelect12" name="radio" value=""/>
+                    <label for="opSelect12" ><span>15 : 00</span></label>
+                    <input type="radio" class="end" id="opSelect13" name="radio" value=""/>
+                    <label for="opSelect13" ><span>15 : 30</span></label>
+                    <input type="radio" class="end" id="opSelect14" name="radio" value=""/>
+                    <label for="opSelect14" ><span>16 : 00</span></label>
+                    <input type="radio" class="end" id="opSelect15" name="radio" value=""/>
+                    <label for="opSelect15" ><span>16 : 30</span></label>
+                    <input type="radio" class="ok" id="opSelect16" name="radio" value=""/>
+                    <label for="opSelect16" ><span>17 : 00</span></label>
+                    <input type="radio" class="ok" id="opSelect17" name="radio" value=""/>
+                    <label for="opSelect17" ><span>17 : 30</span></label>
+                    <input type="radio" class="ok" id="opSelect18" name="radio" value=""/>
+                    <label for="opSelect18" ><span>18 : 00</span></label>
+                </div>
+            </div>
+            <button class="set-doneBtn" onclick="location.href='main.html'"><span>설정완료</span></button>
+        </section>
+    </main>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

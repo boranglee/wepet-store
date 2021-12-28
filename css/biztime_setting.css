@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+.sunday--top, 
+.saturday--top, 
+.dayTime--top{
+    padding:30px 16px 16px;
+}
+.sunday--top-title, 
+.saturday--top-title, 
+.dayTime--top-title{
+    font-weight: bold;
+    text-align: left;
+    border-bottom: 2px solid #212121;
+    padding-bottom: 11px;
+}
+.sunday--top-allday, 
+.saturday--top-allday, 
+.dayTime--top-allday{
+    float: right;
+    font-weight: 400;
+    color: #5090FF;
+}
+input[type="checkbox"]{display: none;}
+.toggle {
+    float: right;
+    position:relative;
+    display:block;
+    width:52px;
+    height:26px;
+    background:#bdbdbd;
+    border-radius:30px;
+    margin:-2px 0 0 8px;
+}
+.toggle:after{
+    content:'';
+    position:absolute;
+    right:27px;
+    top:50%;
+    width:22px;
+    height:22px;
+    border-radius:100%;
+    background:#fff;
+    transform:translateY(-50%);
+}
+input:checked + .toggle {
+    background:#4A61A3;
+}
+input:checked + .toggle:after{
+    right:calc(100% - 48.8px);
+}
+.saturday--set, 
+.dayTime--set{
+    padding:0 16px;
+}
+.sunday--set{
+    padding: 0 16px 80px;
+}
+.sunday--set span, 
+.saturday--set span, 
+.dayTime--set span{
+    display: inline-block;
+    width: 49%;
+}
+.sunday--set-title, 
+.saturday--set-title, 
+.dayTime--set-title{
+    text-align: left;
+}
+input[type="time"]{
+    height: 48px;
+    width: 95%;
+    border: 1px solid #9e9e9e;
+    background: #fafafa;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 4px;
+    display: block;
+    margin: 12px auto;
+}
+input[type="time"].checked{
+    height: 48px;
+    width: 95%;
+    border: 1px solid #9e9e9e;
+    background: #eeeeee;
+    font-size: 15px;
+    color: #757575;
+    text-align: center;
+    border-radius: 4px;
+    display: block;
+    margin: 12px auto;
+}
+input[type="time"]::-webkit-calendar-picker-indicator {
+    position: absolute;
+    width: 40%;
+    opacity: 0;
+ }
+ .foot-btn{
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background: #4A61A3;
+    height: 56px;
+    width: 100%;
+    position: fixed;
+    display: block;
+    bottom: 0;
+ }

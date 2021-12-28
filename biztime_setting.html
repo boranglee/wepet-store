@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
+    <link href="css/biztime_setting.css" rel="stylesheet"/>
+    <link href="css/common.css" rel="stylesheet"/>
+    <link href="css/font.css" rel="stylesheet">
+    <title>영업시간</title>
+</head>
+<body>
+    <header class="header">
+        <div class="head">
+            <div class="head__back"><a href="store_info.html"><img src="image/back_icon.png"></a></div>
+            <div class="head__title">영업시간</div>
+        </div><!--head-->
+    </header>
+    <main class="main">
+        <section class="dayTime">
+            <div class="dayTime--top">
+                <div class="dayTime--top-title">평일 (월~금)
+                    <span class="dayTime--top-allday">24시간
+                    <input type="checkbox" id="chk1" checked>
+                    <label for="chk1" class="toggle"></label></span>
+                </div>
+            </div><!--daytimetop-->
+            <div class="dayTime--set">
+                <span>
+                    <p class="dayTime--set-title">영업시작</p>
+                    <label><input type="time" value="09:00" class="checked"></label>
+                    <label><input type="time" value="12:30" class="checked"></label>
+                </span>
+                <span>
+                    <p class="dayTime--set-title">영업종료</p>
+                    <label><input type="time" value="22:00" class="checked"></label>
+                    <label><input type="time" value="13:30" class="checked"></label>
+                </span>
+            </div><!--daytimeset-->
+        </section><!--daytime-->
+        <section class="saturday">
+            <div class="saturday--top">
+                <div class="saturday--top-title">토요일
+                    <span class="saturday--top-allday">24시간
+                    <input type="checkbox" id="chk2">
+                    <label for="chk2" class="toggle"></label></span>
+                </div>
+            </div><!--saturdaytop-->
+            <div class="saturday--set">
+                <span>
+                    <p class="saturday--set-title">영업시작</p>
+                    <label><input type="time" value="09:00"></label>
+                    <label><input type="time" value="12:30"></label>
+                </span>
+                <span>
+                    <p class="saturday--set-title">영업종료</p>
+                    <label><input type="time" value="22:00"></label>
+                    <label><input type="time" value="13:30"></label>
+                </span>
+            </div><!--saturdayset-->
+        </section><!--saturdaytime-->
+        <section class="saturday">
+            <div class="sunday--top">
+                <div class="sunday--top-title">토요일
+                    <span class="sunday--top-allday">24시간
+                    <input type="checkbox" id="chk3">
+                    <label for="chk3" class="toggle"></label></span>
+                </div>
+            </div><!--sundaytop-->
+            <div class="sunday--set">
+                <span>
+                    <p class="sunday--set-title">영업시작</p>
+                    <label><input type="time" value="09:00"></label>
+                    <label><input type="time" value="12:30"></label>
+                </span>
+                <span>
+                    <p class="sunday--set-title">영업종료</p>
+                    <label><input type="time" value="22:00"></label>
+                    <label><input type="time" value="13:30"></label>
+                </span>
+            </div><!--sundayset-->
+        </section><!--sundaytime-->
+    </main>
+    <footer>
+        <button class="foot-btn">적용하기</button>
+    </footer>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

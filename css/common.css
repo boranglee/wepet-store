@@ -1,0 +1,193 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	text-align: center;
+	font-family: 'Noto Sans KR', sans-serif; font-size: 14px; color:#212121;  letter-spacing: -0.05em;
+}
+*{font-family: 'Noto Sans KR', sans-serif; font-size: 14px; color:#212121;  letter-spacing: -0.05em;}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a{text-decoration:none;}
+.header{
+	position: fixed;
+	width: 100%;
+	height: 56px;
+	background: #ffffff;
+	z-index: 150;
+}
+.main{
+	padding: 56px 0 0;
+}
+.head{
+	padding:0 16px;
+	height: 56px;
+	position: relative;
+	border-bottom: 1px solid #eeeeee;
+}
+.head__back{
+	position: absolute;
+	top: 17px;
+	z-index:500;
+}
+.head__back img{
+	width: 24px;
+	height: 24px;
+}
+.head__title{
+	position:absolute;
+	top:0;
+	left: 0;
+	right: 0;
+	line-height: 56px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.head__search--left{
+	position: absolute;
+	right:50px;
+	top:17px;
+}
+.head__search--left img{
+	width: 24px;
+	height: 24px;
+}
+.head__search--right{
+	position: absolute;
+	right:16px;
+	top:17px;
+}
+.head__search--right img{
+	width: 24px;
+	height: 24px;
+}
+.head__booking{
+	position: absolute;
+	right:16px;
+	top:17px;
+}
+.head__booking img{
+	width: 24px;
+	height: 24px;
+}
+.head__cart{
+	position: absolute;
+	right:16px;
+	top:17px;
+}
+.head__cart img{
+	width: 24px;
+	height: 24px;
+}
+.head__cart p{
+	position: absolute;
+	top: -14%;
+	right: -14%;
+	font-size: 10px;
+	background: #FF6250;
+	color: #ffffff;
+	border-radius: 50%;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+.head__booking p{
+	position: absolute;
+	top: -14%;
+	right: -14%;
+	font-size: 10px;
+	background: #FF6250;
+	color: #ffffff;
+	border-radius: 50%;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+.head__done a{
+	position: absolute;
+	top:17px;
+	right: 16px;
+	font-weight: bold;
+	color: #4A61A3;
+	width: 29px;
+	height: 23px;
+	font-size: 16px;
+}
+.menu{
+    height: 49px;
+    background: #E9EDF2;
+    text-align: left;
+    font-weight: bold;
+    line-height: 49px;
+    padding-left:16px;
+}
+.menu1{
+    height: 49px;
+    background: #E9EDF2;
+    text-align: left;
+    font-weight: bold;
+    line-height: 49px;
+    padding-left:16px;
+    border-top:6px solid #DDDFE5;
+}
+button{background:none; border:0; outline:0;}
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="text"] {
+    padding: 14.5px 14px;
+    border: 1px solid #9E9E9E;
+    box-sizing: border-box;
+    outline: none;
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom:8px;
+}
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="tel"]:focus,
+input[type="text"]:focus{
+    background:#f6f7fc ;
+    border: 1px solid #4A61A3;
+}
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="text"]::placeholder{
+    color: #757575; 
+	font-size: 15px;
+}

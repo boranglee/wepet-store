@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
+    <link href="css/dayoff_setting.css" rel="stylesheet"/>
+    <link href="css/common.css" rel="stylesheet"/>
+    <link href="css/font.css" rel="stylesheet">
+    <title>휴무일설정</title>
+</head>
+<body>
+    <header class="header">
+        <div class="head">
+            <div class="head__back"><a href="store_info.html"><img src="image/back_icon.png"></a></div>
+            <div class="head__title">휴무일</div>
+        </div><!--head-->
+    </header>
+    <main class="main">
+        <section class="fixOff">
+        <div class="fixOff-title">정기휴무
+            <span class="fixOff-allday">연중무휴
+                <input type="checkbox" id="chk1" checked>
+                <label for="chk1" class="toggle"></label>
+            </span>
+        </div>
+        <select class="fixOff-week" name="fixOff-week">
+            <option value="week">매주</option>
+            <option value="week1">매주 첫째</option>
+            <option value="week2">매주 둘째</option>
+            <option value="week3">매주 셋째</option>
+            <option value="week4">매주 넷째</option>
+        </select>
+        <select class="fixOff-day" name="fixOff-day">
+            <option value="mon">월요일</option>
+            <option value="tue">화요일</option>
+            <option value="wed">수요일</option>
+            <option value="thu">목요일</option>
+            <option value="fri">금요일</option>
+            <option value="sat">토요일</option>
+            <option value="sun">일요일</option>
+        </select>
+        <button class="fixOff-add">추가하기</button>
+        </section>
+        <section class="alterOff">
+        <div class="alterOff-title">임시휴무</div>
+            <label><input type="date" value="2021-12-10" class="alterOff-date"></label>
+            <div class="alterOff-day">2021-12-25<button><img src="image/close_btn.png"></button></div>
+        </section>
+    </main>
+    <footer>
+        <button class="foot-btn">적용하기</button>
+    </footer>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

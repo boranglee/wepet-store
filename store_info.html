@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
+    <link href="css/store_info.css" rel="stylesheet"/>
+    <link href="css/common.css" rel="stylesheet"/>
+    <link href="css/font.css" rel="stylesheet">
+    <title>영업정보</title>
+</head>
+<body>
+    <header class="header">
+        <div class="head">
+            <div class="head__back"><a href="main.html"><img src="image/back_icon.png"></a></div>
+            <div class="head__title">영업정보</div>
+        </div><!--head-->
+    </header>
+    <main class="main">
+        <div class="tab_wrap">
+            <div class="tab_menu_container">
+                <button class="tab_menu_btn on" type="button">업체정보</button>
+                <button class="tab_menu_btn" type="button">영업시간</button>
+            </div> <!-- tab_menu_container e -->
+            <div class="tab_box_container">
+                <div class="tab_box on">
+                    <section class="basicInfo">
+                    <div class="box--content">
+                        <p class="basicInfo-img"><img src="image/no_image_w.png"></p>
+                        <div class="basicInfo-title">기본정보</div>
+                        <div class="basicInfo-sub">
+                            <ul>
+                                <li><span class="subTitle">업체명</span><span class="subContent">꿈나라 애견 장례식장</span></li>
+                                <li><span class="subTitle">대표자</span><span class="subContent">박이김</span></li>
+                                <li><span class="subTitle">주소</span><span class="subContent">전북 전주시 완산구 홍산북로 60-10<br/>(효자동3가)</span></li>
+                                <li><span class="subTitle">계좌</span><span class="subContent">농협 501-0000-0000000</span></li>
+                                <li><span class="subTitle">전화번호</span><span class="subContent">예약상담 : 063-123-4567<br/>기타문의 : 063-123-4568</span></li>
+                                <li><span class="subTitle">사업자번호</span><span class="subContent">402-81-85785</span></li>
+                                <li><span class="subTitle">동물장묘업등록번호</span><span class="subContent">100000-1000-100-11000</span></li>
+                            </ul>
+                        </div>
+                        <p class="basicInfo-guide">
+                            ※ 기본정보 수정이 필요한 경우 사업자등록증 및 동물장묘업 등록증을 첨부하여 고객센터로 문의해 주세요. 
+                        </p>
+                        </div>
+                    </section><!--basicInfo-->
+                    <section class="storeInfo">
+                        <div class="box--content">
+                        <div class="storeInfo-title">업체소개<span><a href="storeinfo_edit.html">수정하기</a></span></div>
+                        <p class="storeInfo-sub">
+                            꿈나라 애견 장례식장은 개별화장, 장례절차 참관을 기본으로 합니다.<br/>
+                            기본이 되어야 하는 절차는 지키되, 장례식장의 높은 이익을 위한 불필요한 절차는 추천하지 않습니다. <br/>
+                            아이를 보내는 슬픔 가득한 순간에 다른 걱정은 하지 않으시도록 노력합니다.<br/>
+                            <br/>
+                            또한 아이의 마지막 순간을 억지로 예쁘게 꾸미려고 하지 않습니다.<br/>
+                            무지개 다리를 건너는 아이가 가장 편안하도록 하는 것이
+                            저희 펫 추모공원의 가장 큰 모토입니다. 
+                        </p>
+                        </div>
+                    </section><!--basicInfo-->
+                    </div>
+                </div><!--tab_box_on-->
+                <div class="tab_box">
+                    <section class="bizTime">
+                        <div class="box--content">
+                            <div class="bizTime-title">영업시간<span><a href="biztime_setting.html">수정하기</a></span></div>
+                            <div class="bizTime-sub">
+                                <ul>
+                                    <li><span class="subTitle">평일 (월~금)</span><span class="subContent">24시간</span></li>
+                                    <li><span class="subTitle">토요일</span><span class="subContent">오전 09:00 ~ 오후 10:00</span></li>
+                                    <li><span class="subTitle">일요일</span><span class="subContent">오전 09:00 ~ 오후 10:00</span></li>
+            
+                                </ul>
+                            </div>
+                        </div><!--boxcontent-->
+                    </section><!--bizTime-->
+                    <section class="closeDay">
+                        <div class="box--content">
+                            <div class="closeDay-title">휴무일<span><a href="dayoff_setting.html">수정하기</a></span></div>
+                            <div class="closeDay-sub">
+                                <ul>
+                                    <li><span class="subTitle">정기휴무</span><span class="subContent">매주 넷째 월요일</span></li>
+                                    <li><span class="subTitle">임시휴무</span><span class="subContent">2021. 12. 25</span></li>
+            
+                                </ul>
+                            </div>
+                        </div><!--boxcontent-->
+                    </section><!--closeDay-->
+                </div><!--tab_box-->
+            </div> <!-- tab_box_container-->
+          </div> <!-- tab_wrap-->     
+    </main>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
