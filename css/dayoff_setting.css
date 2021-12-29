@@ -53,7 +53,8 @@ select {
     border-radius:4px;
     width: 48%;
     height: 48px;
-    text-align: center;
+    line-height: 48px;
+    text-align: -webkit-center;
     font-size: 15px;
 }
 .fixOff-week{margin-right: 4px;}
@@ -97,7 +98,7 @@ input[type="date"]{
  }
  input[type="date"]::-webkit-calendar-picker-indicator {
     position: absolute;
-    width:50%;
+    width:40%;
     opacity: 0;
  }
 .alterOff-day{

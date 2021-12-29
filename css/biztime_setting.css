@@ -75,7 +75,7 @@ input[type="time"]{
     text-align: center;
     border-radius: 4px;
     display: block;
-    margin: 12px auto;
+    margin: 12px 3px;
     -webkit-appearance: none;
     width: -webkit-fill-available;
 }
@@ -89,7 +89,7 @@ input[type="time"].checked{
     text-align: center;
     border-radius: 4px;
     display: block;
-    margin: 12px auto;
+    margin: 12px 3px;
     -webkit-appearance: none;
     width: -webkit-fill-available;
 }
