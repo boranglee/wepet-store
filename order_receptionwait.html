@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
+    <link href="css/order_content.css" rel="stylesheet"/>
+    <link href="css/common.css" rel="stylesheet"/>
+    <link href="css/font.css" rel="stylesheet">
+    <title>예약내역</title>
+</head>
+<body>
+    <header class="header">
+        <div class="head">
+            <div class="head__back"><a href="order_list.html"><img src="image/back_icon.png"></a></div>
+            <div class="head__title">내역상세</div>
+        </div><!--head-->
+    </header>
+    <main class="main">
+        <section class="order-top">
+            <p class="order-receptionWait">접수대기</p>
+            <p class="order-name">꿈나라 애견 장례식장</p>
+            <p class="order-bookDate">예약일시 : 2021-11-23 16시 00분</p>
+            <p class="order-date">2021. 11. 23 오전 10:10</p>
+            <button class="orderBtn" onclick="location.href='#'">
+                <p>예약 접수하기</p>
+            </button><!--orderbtn-->
+            <button class="cancelBtn" onclick="location.href='#'">
+                <p>접수취소</p>
+            </button><!--cancel-->
+        </section><!--bookingtop-->
+        <section class="bookingInfo">
+            <div class="bookingInfo-title">예약정보</div>
+            <div class="bookingInfo-sub">
+                <ul>
+                    <li><span class="subTitle">예약일시</span><span class="subContent">2021-12-27 16:00</span></li>
+                    <li><span class="subTitle">반려동물 이름</span><span class="subContent">멍뭉이</span></li>
+                    <li><span class="subTitle">보호자 연락처</span><span class="subContent">010-1234-5678</span></li>
+                    <li><span class="subTitle">픽업주소</span><span class="subContent">픽업안함</span></li>
+                </ul>
+            </div>
+        </section><!--bookinginfo-->
+        <section class="bookingList">
+            <p class="bookingList-title">예약내역</p>
+            <div class="bookingList-bg">
+                <p class="bookingList-list-title">맞춤형 장례<span>200,000원</span></p>
+                <ul class="bookingList-list-sub">
+                    <li>5kg 이하</li>
+                    <li>픽업안함</li>
+                    <li>염습A</li>
+                    <li>입관X</li>
+                    <li>삼베수의</li>
+                    <li>메모리얼스톤<span>+70,000원</span></li>
+                </ul>
+            </div><!--bookinglistbg-->
+        </section><!--bookinglist-->
+        <section class="total-price">
+            <p>총 결제금액<span>270,000원</span></p>
+        </section>
+    </main>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

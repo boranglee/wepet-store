@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+.box--content{
+    padding: 24px 16px;
+}
+.category, .service, .price, .explain{
+    margin-bottom: 16px;
+}
+.cate-title, 
+.service-title, 
+.price-title, 
+.explain-title{
+    font-size: 15px;
+    color: #616161;
+    text-align: left;
+    margin-bottom: 4px;
+}
+select{
+    border: 1px solid #9e9e9e;
+    border-radius:4px;
+    width:100%;
+    height: 48px;
+    text-align: left;
+    font-size: 15px;
+    padding: 0 16px;
+    background: url('../image/dropdown.png') no-repeat 97% center / 24px auto;
+    background-color: #fafafa;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+select::-ms-expand {
+    display: none;
+}
+ .foot-btn{
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background: #4A61A3;
+    height: 56px;
+    width: 100%;
+    position: fixed;
+    display: block;
+    bottom: 0;
+ } 

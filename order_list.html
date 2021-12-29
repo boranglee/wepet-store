@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
+    <link href="css/order_list.css" rel="stylesheet"/>
+    <link href="css/common.css" rel="stylesheet"/>
+    <link href="css/font.css" rel="stylesheet">
+    <title>주문내역</title>
+</head>
+<body>
+    <header class="header">
+        <div class="head">
+            <div class="head__back"><a href="main.html"><img src="image/back_icon.png"></a></div>
+            <div class="head__title">주문내역</div>
+        </div><!--head-->
+    </header>
+    <main class="main">
+        <div class="tab_wrap"> 
+            <div class="tab_menu_container">
+                <button class="tab_menu_btn on" type="button">장례식장 예약</button>
+                <button class="tab_menu_btn" type="button">장례용품 주문</button>
+            </div> <!-- tab_menu_container e -->
+            <div class="tab_box_container">
+                <div class="tab_box on">
+                    <section class="order--list">
+                        <div class="order--date">
+                            <p>2021. 11. 23 오전 10:10</p>
+                            <button class="fullBtn" onclick="location.href='order_receptionwait.html'">상세보기</button>
+                        </div><!--orderdate-->
+                        <div class="order-content">
+                            <p class="order-receptionWait">접수대기</p>
+                            <p class="order-name">김아람 (멍뭉이)</p>
+                            <p class="order-bookDate">예약일시 : 2021-12-27 16시 00분</p>
+                        </div><!--ordercontent-->
+                        <button class="orderBtn" onclick="location.href='#'">
+                            <p>예약접수하기</p>
+                        </button><!--orderbtn-->
+                    </section><!--orderlist-->
+                    <section class="order--list">
+                        <div class="order--date">
+                            <p>2021-11-23 오전 10:10</p>
+                            <button class="fullBtn" onclick="location.href='order_paywait.html'">상세보기</button>
+                        </div><!--paydate-->
+                        <div class="order-content">
+                            <p class="order-payWait">결제대기</p>
+                            <p class="order-name">주문자 (반려동물 이름)</p>
+                            <p class="order-bookDate">예약일시 : 2021-12-27 16시 00분</p>
+                        </div><!--ordercontent-->
+                    </section><!--orderlist-->
+                    <section class="order--list">
+                        <div class="order--date">
+                            <p>2021-11-23 오전 10:10</p>
+                            <button class="fullBtn" onclick="location.href='order_bookdone.html'">상세보기</button>
+                        </div><!--paydate-->
+                        <div class="order-content">
+                            <p class="order-bookDone">예약완료</p>
+                            <p class="order-name">주문자 (반려동물 이름)</p>
+                            <p class="order-bookDate">예약일시 : 2021-12-27 16시 00분</p>
+                        </div><!--ordercontent-->
+                    </section><!--orderlist-->
+                    <section class="order--list">
+                        <div class="order--date">
+                            <p>2021-11-23 오전 10:10</p>
+                            <button class="fullBtn" onclick="location.href='order_end.html'">상세보기</button>
+                        </div><!--paydate-->
+                        <div class="order-content">
+                            <p class="order-end">완료</p>
+                            <p class="order-name">주문자 (반려동물 이름)</p>
+                            <p class="order-bookDate">예약일시 : 2021-12-27 16시 00분</p>
+                        </div><!--ordercontent-->
+                    </section><!--orderlist-->
+                    <section class="order--list">
+                        <div class="order--date">
+                            <p>2021-11-23 오전 10:10</p>
+                            <button class="fullBtn" onclick="location.href='order_cancel.html'">상세보기</button>
+                        </div><!--orderdate-->
+                        <div class="order-content">
+                            <p class="order-cancle">취소</p>
+                            <p class="order-name">주문자 (반려동물 이름)</p>
+                            <p class="order-bookDate">예약일시 : 2021-12-27 16시 00분</p>
+                        </div><!--ordercontent-->
+                    </section><!--paymentlist-->
+                </div><!--tab_box_on-->
+                <div class="tab_box">
+                    <section class="order--list">
+                        <div class="order--date">
+                            <p>2021-11-23 오전 10:10</p>
+                            <button class="fullBtn" onclick="location.href='order_del_ready.html'">상세보기</button>
+                        </div><!--orderdate-->
+                        <div class="order-content">
+                            <p class="order-delReady">배송준비</p>
+                            <p class="order-name">럭셔리 소나무관 (10kg~15kg)</p>
+                            <p class="order-price">150,000원 (카드결제)</p>
+                        </div><!--ordercontent-->
+                        <button class="delBtn" onclick="location.href='#'">
+                            <p>배송출발</p>
+                        </button><!--orderbtn-->
+                    </section><!--orderlist-->
+                    <section class="order--list">
+                        <div class="order--date">
+                            <p>2021-11-23 오전 10:10</p>
+                            <button class="fullBtn" onclick="location.href='order_del_ing.html'">상세보기</button>
+                        </div><!--orderdate-->
+                        <div class="order-content">
+                            <p class="order-delIng">배송중</p>
+                            <p class="order-name">럭셔리 소나무관 (10kg~15kg)</p>
+                            <p class="order-price">150,000원 (카드결제)</p>
+                        </div><!--ordercontent-->
+                    </section><!--orderlist-->
+                    <section class="order--list">
+                        <div class="order--date">
+                            <p>2021-11-23 오전 10:10</p>
+                            <button class="fullBtn" onclick="location.href='order_del_done.html'">상세보기</button>
+                        </div><!--orderdate-->
+                        <div class="order-content">
+                            <p class="order-delDone">배송완료</p>
+                            <p class="order-name">럭셔리 소나무관 (10kg~15kg)</p>
+                            <p class="order-price">150,000원 (카드결제)</p>
+                        </div><!--ordercontent-->
+                    </section><!--orderlist-->
+                    <section class="order--list">
+                        <div class="order--date">
+                            <p>2021-11-23 오전 10:10</p>
+                            <button class="fullBtn" onclick="location.href='order_del_cancel.html'">상세보기</button>
+                        </div><!--orderdate-->
+                        <div class="order-content">
+                            <p class="order-cancle">취소</p>
+                            <p class="order-name">럭셔리 소나무관 (10kg~15kg)</p>
+                            <p class="order-price">150,000원 (카드결제)</p>
+                        </div><!--ordercontent-->
+                    </section><!--orderlist-->
+                </div><!--tab_box-->
+            </div> <!-- tab_box_container-->
+          </div> <!-- tab_wrap-->     
+    </main>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
