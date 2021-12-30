@@ -78,6 +78,7 @@ input[type="time"]{
     margin: 12px 3px;
     -webkit-appearance: none;
     width: -webkit-fill-available;
+    align-items: center;
 }
 input[type="time"].checked{
     height: 48px;
@@ -92,6 +93,7 @@ input[type="time"].checked{
     margin: 12px 3px;
     -webkit-appearance: none;
     width: -webkit-fill-available;
+    align-items: center;
 }
 input[type="time"]::-webkit-calendar-picker-indicator {
     position: absolute;
