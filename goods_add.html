@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
+    <title>위펫-사장님</title>
+    <link href="css/basicinfo_setting.css" rel="stylesheet"/>
+    <link href="css/common.css" rel="stylesheet"/>
+    <link href="css/font.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="head">
+            <div class="head__back" onclick="location.href='sales_setting.html'"></div>
+            <div class="head__title">장례용품 신규등록</div>
+        </div><!--head-->
+    </header>
+    <main class="main">
+        <div class="box--content">
+            <section class="category">
+                <p class="cate-title">카테고리</p>
+                <select class="cate" name="cate">
+                    <option value="cate1">관</option>
+                    <option value="cate2">수의</option>
+                    <option value="cate3">추모함</option>
+                </select>
+            </section>
+            <section class="service">
+                <p class="service-title">상품명</p>
+                <input type="text" placeholder="" value="오동나무관">
+            </section>
+            <section class="price">
+                <p class="price-title">가격</p>
+                <input type="text" placeholder="" value="20,000원">
+            </section>
+            <section class="explain">
+                <p class="explain-title">한줄설명</p>
+                <input type="text" placeholder="" value="오동나무로 만들어진 관입니다">
+            </section>
+       </div><!--boxcontent-->
+      
+    </main>
+    <footer>
+        <button class="foot-btn">등록하기</button>
+    </footer>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

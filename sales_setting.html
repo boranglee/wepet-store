@@ -13,78 +13,308 @@
     <header class="header">
         <div class="head">
             <div class="head__back" onclick="location.href='index.html'"></div>
-            <div class="head__title">영업정보</div>
+            <div class="head__title">상품관리</div>
         </div><!--head-->
     </header>
     <main class="main">
-        <div class="tab_wrap">
-            <div class="tab_menu_container">
-                <button class="tab_menu_btn on" type="button">장례식장</button>
-                <button class="tab_menu_btn" type="button">장례용품</button>
-            </div> <!-- tab_menu_container e -->
-            <div class="tab_box_container">
-                <div class="tab_box on">
+        <div class="tab-link_container">
+            <a href="#tab_1" class="tab-link active">장례식장</a>
+            <a href="#tab_2" class="tab-link">장례용품</a>
+        </div>
+        <!--tablinkcontainer--> 
+        <div id="tab-content_container">
+        <div id="tab_1" class="tab-content alive">
+            <div class="tab-inner_container">
+                <a href="#tab_1-1" class="tab-inner_link active">메뉴관리</a>
+                <a href="#tab_1-2" class="tab-inner_link">옵션관리</a>
+            </div>
+            <!--tabinnercontainer-->
+            <div id="tab_1-1" class="tab-inner_content active">
                 <sectoin>
-                    <p class="menu">기본장례</p>
-                    <div class="option">
-                        <p class="option-title">기본형 장례</p>
-                        <p class="option-sub">염습/오동나무관/추모실/화장/기본유골함</p>
+                    <div class="info--accordian">
+                        <div class="menu1">기본장례<p class="accordian-arrow"><img src="image/upbtn.png" alt="아코디언메뉴"></p>
+                        </div>
                     </div>
+                    <!--infoaccordian-->
+                    <div class="content">
+                        <div class="option-img">
+                            <p><img src="image/no_image_w.png" alt="장례이미지"></p>
+                            <div>
+                                <p class="option-title">기본형 장례</p>
+                                <p class="option-sub">염습/오동나무관/추모실/화장/기본유골함</p>
+                                <p class="option-price">200,000원</p>
+                            </div>
+                        </div>
+                        <!--option-->
+                    </div>
+                    <!--content--> 
                 </sectoin>
                 <sectoin>
-                    <a href="option_setting.html">
-                    <p class="menu1">고급장례</p>
-                    <div class="option">
-                        <p class="option-title">고급형 A 장례</p>
-                        <p class="option-sub">염습/소나무관/추모실/화장/백자유골함</p></a>
+                    <div class="info--accordian">
+                        <div class="menu1">고급장례<p class="accordian-arrow"><img src="image/upbtn.png" alt="아코디언메뉴"></p>
+                        </div>
                     </div>
-                    <div class="option">
-                        <p class="option-title">고급형 B 장례</p>
-                        <p class="option-sub">염습/소나무관/추모실/화장/백자유골함</p>
+                    <!--infoaccordian-->
+                    <div class="content">
+                        <div class="option state-no" onclick="location.href='basicinfo_setting.html'">
+                            <p class="option-title">고급형 A 장례</p>
+                            <p class="option-sub">염습/소나무관/추모실/화장/백자유골함</p>
+                            <p class="option-price">230,000원</p>
+                        </div>
+                        <!--option-->
+                        <div class="option">
+                            <p class="option-title">고급형 B 장례</p>
+                            <p class="option-sub">염습/소나무관/추모실/화장/백자유골함</p>
+                            <p class="option-price">240,000원</p>
+                        </div>
+                        <!--option-->
                     </div>
+                    <!--content-->
                 </sectoin>
                 <sectoin>
-                    <p class="menu1">맞춤장례</p>
-                    <div class="option">
-                        <p class="option-title">맞춤형 장례</p>
-                        <p class="option-sub">원하는 옵션을 직접 선택하여 진행</p>
+                    <div class="info--accordian">
+                        <div class="menu1">맞춤장례<p class="accordian-arrow"><img src="image/upbtn.png" alt="아코디언메뉴"></p>
+                        </div>
+                    </div>
+                    <!--infoaccordian-->
+                    <div class="content">
+                        <div class="option">
+                            <p class="option-title">맞춤형 장례</p>
+                            <p class="option-sub">원하는 옵션을 직접 선택하여 진행</p>
+                            <p class="option-price">200,000원~</p>
+                        </div>
                     </div>
                 </sectoin>
-                </div><!--tab_box_on-->
-            </div><!--tab_box_container-->
-                <div class="tab_box">
+                <div class="foot-btn">
+                    <button class="cateBtn" onclick="location.href='store_cate.html'">카테고리 편집</button>
+                    <button class="menuBtn" onclick="location.href='store_menu.html'">메뉴 추가</button>
+                </div>
+            </div>
+            <!--tab_1-1-->  
+            <div id="tab_1-2" class="tab-inner_content"> 
                 <sectoin>
-                    <p class="menu">관</p>
-                    <div class="option">
-                        <p class="option-title">럭셔리 소나무관</p>
-                        <p class="option-sub">최고급 소나무로 만든 관 입니다</p>
+                    <div class="info--accordian">
+                        <div class="menu1">무게<p class="accordian-arrow"><img src="image/upbtn.png" alt="아코디언메뉴"></p>
+                        </div>
                     </div>
+                    <!--infoaccordian-->
+                    <div class="content">
+                        <div class="option">
+                            <p class="option-title">5kg 이하</p>
+                            <p class="option-price">0원</p>
+                        </div>
+                        <!--option-->
+                        <div class="option">
+                            <p class="option-title">5kg 초과</p>
+                            <p class="option-sub">1kg 당 10,000원 추가</p>
+                            <p class="option-price">10,000원 ~</p>
+                        </div>
+                        <!--option-->
+                    </div>
+                    <!--content--> 
                 </sectoin>
                 <sectoin>
-                    <p class="menu1">유골함</p>
-                    <div class="option">
-                        <p class="option-title">백자 유골함</p>
-                        <p class="option-sub">백자로 만든 유골함 입니다</p>
+                    <div class="info--accordian">
+                        <div class="menu1">픽업<p class="accordian-arrow"><img src="image/upbtn.png" alt="아코디언메뉴"></p>
+                        </div>
                     </div>
-                    <div class="option">
-                        <p class="option-title">멋진 유골함</p>
-                        <p class="option-sub">유골함입니다</p>
+                    <!--infoaccordian-->
+                    <div class="content">
+                        <div class="option">
+                            <p class="option-title">픽업안함</p>
+                            <p class="option-price">0원</p>
+                        </div>
+                        <!--option-->
+                        <div class="option">
+                            <p class="option-title">전주시 인근 지역</p>
+                            <p class="option-sub">전주시, 완주군</p>
+                            <p class="option-price">50,000원</p>
+                        </div>
+                        <!--option-->
+                        <div class="option">
+                            <p class="option-title">전주시 외 지역</p>
+                            <p class="option-sub">익산시, 군산시, 김제시, 정읍시, 부안군, 임실군, 진안군</p>
+                            <p class="option-price">50,000원</p>
+                        </div>
+                        <!--option-->
                     </div>
+                    <!--content-->
+                </sectoin> 
+                <div class="foot-btn">
+                    <button class="cateBtn">카테고리 편집</button>
+                    <button class="optionBtn">옵션 추가</button>
+                </div>
+            </div>
+            <!--tab_1-2-->
+        </div>
+        <!--tab_1-->
+        <div id="tab_2" class="tab-content">
+            <div class="tab-inner_container">
+                <a href="#tab_2-1" class="tab-inner_link active">메뉴관리</a>
+                <a href="#tab_2-2" class="tab-inner_link">옵션관리</a>
+            </div>
+            <!--tabinnercontainer-->
+            <div id="tab_2-1" class="tab-inner_content active">
+                <sectoin>
+                    <div class="info--accordian">
+                        <div class="menu">관<p class="accordian-arrow"><img src="image/upbtn.png" alt="아코디언메뉴"></p>
+                        </div>
+                    </div>
+                    <!--infoaccordian-->
+                    <div class="content">
+                        <div class="option-img">
+                            <p><img src="image/no_image_w.png" alt="용품이미지"></p>
+                            <div>
+                                <p class="option-title">럭셔리 소나무관</p>
+                                <p class="option-sub">소나무로 제작된 럭셔리한 스타일의 관</p>
+                                <p class="option-price">80,000원</p>
+                            </div>
+                        </div>
+                        <!--option-->
+                        <div class="option-img">
+                            <p><img src="image/no_image_w.png" alt="용품이미지"></p>
+                            <div>
+                                <p class="option-title">럭셔리 소나무관</p>
+                                <p class="option-sub">소나무로 제작된 럭셔리한 스타일의 관</p>
+                                <p class="option-price">80,000원</p>
+                            </div>
+                        </div>
+                        <!--option-->
+                    </div>
+                    <!--content--> 
                 </sectoin>
                 <sectoin>
-                    <p class="menu1">수의</p>
-                    <div class="option">
-                        <p class="option-title">삼베수의</p>
-                        <p class="option-sub">삼베로 만든 수의 입니다</p>
+                    <div class="info--accordian">
+                        <div class="menu">수의<p class="accordian-arrow"><img src="image/upbtn.png" alt="아코디언메뉴"></p>
+                        </div>
                     </div>
-                    <div class="option">
-                        <p class="option-title">수의</p>
-                        <p class="option-sub">기본 수의 입니다</p>
+                    <!--infoaccordian-->
+                    <div class="content">
+                        <div class="option-img">
+                            <p><img src="image/no_image_w.png" alt="용품이미지"></p>
+                            <div>
+                                <p class="option-title">삼베수의</p>
+                                <p class="option-sub">삼베로 제작한 수의</p>
+                                <p class="option-price">80,000원</p>
+                            </div>
+                        </div>
+                        <!--option-->
+                        <div class="option-img">
+                            <p><img src="image/no_image_w.png" alt="용품이미지"></p>
+                            <div>
+                                <p class="option-title">상하의 분리형 기능성 하이넥 수의</p>
+                                <p class="option-sub">5kg 이내 강아지, 고양이 대상</p>
+                                <p class="option-price">150,000원</p>
+                            </div>
+                        </div>
+                        <!--option-->
+                    </div>
+                    <!--content--> 
+                </sectoin>
+                <sectoin>
+                    <div class="info--accordian">
+                        <div class="menu">추모함<p class="accordian-arrow"><img src="image/upbtn.png" alt="아코디언메뉴"></p>
+                        </div>
+                    </div>
+                    <!--infoaccordian-->
+                    <div class="content">
+                        <div class="option-img">
+                            <p><img src="image/no_image_w.png" alt="용품이미지"></p>
+                            <div>
+                                <p class="option-title">루세떼 메모리얼함</p>
+                                <p class="option-sub">스톤을 보관할 수 있는 루세떼 보관함</p>
+                                <p class="option-price">25,000원</p>
+                            </div>
+                        </div>
+                        <!--option-->
                     </div>
                 </sectoin>
-                </div><!--tab_box-->
-            </div> <!-- tab_box_container-->
-          </div> <!-- tab_wrap-->     
+                <div class="foot-btn">
+                    <button class="addBtn">상품추가</button>
+                </div>
+            </div>
+            <!--tab_2-1-->
+            <div id="tab_2-2" class="tab-inner_content">    
+                <sectoin>
+                    <div class="info--accordian">
+                        <div class="menu">관<p class="accordian-arrow"><img src="image/upbtn.png" alt="아코디언메뉴"></p>
+                        </div>
+                    </div>
+                    <!--infoaccordian-->
+                    <div class="content">
+                        <div class="option-img">
+                            <p><img src="image/no_image_w.png" alt="용품이미지"></p>
+                            <div>
+                                <p class="option-title">럭셔리 소나무관</p>
+                                <p class="option-sub">소나무로 제작된 럭셔리한 스타일의 관</p>
+                                <p class="option-price">80,000원</p>
+                            </div>
+                        </div>
+                        <!--option-->
+                        <div class="option-img">
+                            <p><img src="image/no_image_w.png" alt="용품이미지"></p>
+                            <div>
+                                <p class="option-title">럭셔리 소나무관</p>
+                                <p class="option-sub">소나무로 제작된 럭셔리한 스타일의 관</p>
+                                <p class="option-price">80,000원</p>
+                            </div>
+                        </div>
+                        <!--option-->
+                    </div>
+                    <!--content--> 
+                </sectoin>
+                <sectoin>
+                    <div class="info--accordian">
+                        <div class="menu">수의<p class="accordian-arrow"><img src="image/upbtn.png" alt="아코디언메뉴"></p>
+                        </div>
+                    </div>
+                    <!--infoaccordian-->
+                    <div class="content">
+                        <div class="option-img">
+                            <p><img src="image/no_image_w.png" alt="용품이미지"></p>
+                            <div>
+                                <p class="option-title">삼베수의</p>
+                                <p class="option-sub">삼베로 제작한 수의</p>
+                                <p class="option-price">80,000원</p>
+                            </div>
+                        </div>
+                        <!--option-->
+                        <div class="option-img">
+                            <p><img src="image/no_image_w.png" alt="용품이미지"></p>
+                            <div>
+                                <p class="option-title">상하의 분리형 기능성 하이넥 수의</p>
+                                <p class="option-sub">5kg 이내 강아지, 고양이 대상</p>
+                                <p class="option-price">150,000원</p>
+                            </div>
+                        </div>
+                        <!--option-->
+                    </div>
+                    <!--content--> 
+                </sectoin>
+                <sectoin>
+                    <div class="info--accordian">
+                        <div class="menu">추모함<p class="accordian-arrow"><img src="image/upbtn.png" alt="아코디언메뉴"></p>
+                        </div>
+                    </div>
+                    <!--infoaccordian-->
+                    <div class="content">
+                        <div class="option-img">
+                            <p><img src="image/no_image_w.png" alt="용품이미지"></p>
+                            <div>
+                                <p class="option-title">루세떼 메모리얼함</p>
+                                <p class="option-sub">스톤을 보관할 수 있는 루세떼 보관함</p>
+                                <p class="option-price">25,000원</p>
+                            </div>
+                        </div>
+                        <!--option-->
+                    </div>
+                </sectoin>
+            </div>
+            <!--tab_2-2-->
+        </div>
+        <!--tab_2-->
+    </div>
+    <!--tabcontentcontainer-->
     </main>
     <script src="js/jquery-3.5.1.js"></script>
     <script src="js/script.js"></script>

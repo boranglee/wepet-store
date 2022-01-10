@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
+    <title>위펫-사장님</title>
+    <link href="css/store_cate.css" rel="stylesheet"/>
+    <link href="css/common.css" rel="stylesheet"/>
+    <link href="css/font.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="head">
+            <div class="head__back" onclick="location.href='sales_setting.html'"></div>
+            <div class="head__title">메뉴 카테고리</div>
+        </div><!--head-->
+    </header>
+    <main class="main">
+        <p class="menu">카테고리 목록</p>
+        <section class="cate-container">
+            <div class="cate-setting">
+                <div class="cate-title">
+                    <p class="title-name">카테고리1</p>
+                    <p class="closebtn"></p>
+                </div>
+                <p class="cate-setting-name">카테고리명</p>
+                <input type="text" placeholder="" value="기본장례">
+            </div>
+            <!--catesetting-->
+            <div class="cate-setting">
+                <div class="cate-title">
+                    <p class="title-name">카테고리2</p>
+                    <p class="closebtn"></p>
+                </div>
+                <p class="cate-setting-name">카테고리명</p>
+                <input type="text" placeholder="" value="고급장례">
+            </div>
+            <!--catesetting-->
+            <div class="cate-setting">
+                <div class="cate-title">
+                    <p class="title-name">카테고리3</p>
+                    <p class="closebtn"></p>
+                </div>
+                <p class="cate-setting-name">카테고리명</p>
+                <input type="text" placeholder="" value="맞춤장례">
+            </div>
+            <!--catesetting-->
+            <p class="menu1">카테고리 추가</p>
+            <div class="cate-setting">
+                <p class="cate-setting-name">카테고리명</p>
+                <input type="text" placeholder="예 : 기본장례 / 고급장례 / 맞춤장례">
+                <button class="addBtn">추가하기</button>
+            </div>
+            <!--catesetting-->
+        </section>
+        <!--catecontainer-->
+    </main>
+    <footer>
+        <button class="foot-btn">적용</button>
+    </footer>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
