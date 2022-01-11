@@ -13,24 +13,30 @@
     <header class="header">
         <div class="head">
             <div class="head__back" onclick="location.href='sales_setting.html'"></div>
-            <div class="head__title">상품추가</div>
+            <div class="head__title">럭셔리 소나무 관</div>
         </div><!--head-->
     </header>
     <main class="main">
-        <div class="menu">기본정보</div>
+        <div class="menu">
+            <div class="basicinfo-title">기본정보
+                <span class="basicinfo-state">품절
+                <input type="checkbox" id="chk1">
+                <label for="chk1" class="toggle"></label></span>
+            </div>
+        </div><!--menu-->
         <section class="setting-list-container">
             <div class="setting-list">
                 <p class="section-title">사진/이미지</p>
                 <input type="file" id="input-file">
                 <label for="input-file" class="input-button">변경</label>
-                <figure class="input-preview">등록된 사진이 없습니다.</figure>
+                <figure class="input-preview-img"><img src="image/no_image_w.png"></figure>
                 <figcaption class="input-notice">1080 × 510 사이즈 권장</figcaption>
             </div>
             <!--settinglist-->
             <div class="setting-list">
                 <p class="section-title">카테고리</p>
                 <select class="cate" name="cate">
-                    <option value="cate1">서비스 카테고리 선택</option>
+                    <option value="cate1">관</option>
                     <option value="cate2">선택1</option>
                     <option value="cate3">선택2</option>
                 </select>
@@ -38,49 +44,53 @@
             <!--settinglist-->
             <div class="setting-list">
                 <p class="section-title">상품명</p>
-                <input type="text" placeholder="상품명을 입력해주세요">
+                <input type="text" placeholder="상품명을 입력해주세요" value="럭셔리 소나무 관">
             </div>
             <!--settinglist-->
             <div class="setting-list">
                 <p class="section-title">가격</p>
-                <input type="text" placeholder="0원">
+                <input type="text" placeholder="0원" value="88,000원">
             </div>
             <!--settinglist-->
             <div class="setting-list">
                 <p class="section-title">할인가</p>
                 <span class="toggle-text">할인적용
-                    <input type="checkbox" id="chk1">
+                    <input type="checkbox" id="chk1" checked>
                     <label for="chk1" class="toggle"></label></span>
-                <input type="text" placeholder="" value="" disabled>
+                <input type="text" placeholder="" value="80,000원" >
             </div>
             <!--settinglist-->
             <div class="setting-list">
                 <p class="section-title">배송비</p>
                 <span class="toggle-text">무료배송
-                    <input type="checkbox" id="chk2">
+                    <input type="checkbox" id="chk2" checked>
                     <label for="chk2" class="toggle"></label></span>
-                <input type="text" placeholder="" value="0원" >
+                <input type="text" placeholder="" value="" disabled>
             </div>
             <!--settinglist-->
             <div class="setting-list">
                 <p class="section-title">한줄설명</p>
-                <input type="text" placeholder="상품에 대한 간략한 설명을 입력해주세요." value="">
+                <input type="text" placeholder="상품에 대한 간략한 설명을 입력해주세요." value="소나무로 제작된 럭셔리한 스타일의 관">
             </div>
             <!--settinglist-->
             <p class="menu1">상세정보</p>
             <div class="setting-list">
                 <div class="input-file-top">
                     <p class="section-title">상세정보사진</p>
-                    <span>사진(<em>2</em>/6)
+                    <span>사진(<em>6</em>/6)
                     <input type="file" id="input-file" />
                     <label for="input-file" class="input-button">추가</label></span>
                 </div>
-                    <ul class="preview">
-                        <li><img src="image/no_image_w.png" alt="사진추가"/></li>
-                        <li><img src="image/no_image_w.png" alt="사진추가"/></li>
-                    </ul>
+                <ul class="preview">
+                    <li><img src="image/no_image_w.png" alt="사진추가"/></li>
+                    <li><img src="image/no_image_w.png" alt="사진추가"/></li>
+                    <li><img src="image/no_image_w.png" alt="사진추가"/></li>
+                    <li><img src="image/no_image_w.png" alt="사진추가"/></li>
+                    <li><img src="image/no_image_w.png" alt="사진추가"/></li>
+                    <li><img src="image/no_image_w.png" alt="사진추가"/></li>
+                </ul>
             </div>
-            <!--settingoptionlist-->
+            <!--settinglist-->
             <div class="setting-list">
                 <p class="section-title">품명</p>
                 <input type="text" placeholder="" value="소나무관">
@@ -109,7 +119,7 @@
         </section>
     </main>
     <footer>
-        <button class="foot-btn">등록하기</button>
+        <button class="foot-btn">적용</button>
     </footer>
     <script src="js/jquery-3.5.1.js"></script>
     <script src="js/script.js"></script>

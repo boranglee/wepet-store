@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
+    <title>위펫-사장님</title>
+    <link href="css/goods_option_detail.css" rel="stylesheet"/>
+    <link href="css/common.css" rel="stylesheet"/>
+    <link href="css/font.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="head">
+            <div class="head__back" onclick="location.href='sales_setting.html'"></div>
+            <div class="head__title">럭셔리 소나무 관</div>
+        </div><!--head-->
+    </header>
+    <main class="main">
+        <p class="menu">옵션 목록</p>
+        <section class="option-container">
+            <div class="option-setting">
+                <div class="option-title">
+                    <p class="title-name">옵션1</p>
+                    <p class="closebtn"></p>
+                </div>
+                <span class="option-setting-name">옵션명</span>
+                <span class="toggle-text">품절
+                    <input type="checkbox" id="chk1">
+                    <label for="chk1" class="toggle"></label></span>
+                <input type="text" placeholder="" value="10kg~15kg">
+                <p class="option-setting-name">가격</p>
+                <input type="text" placeholder="" value="+ 0원">
+            </div>
+            <!--optionsetting-->
+            <div class="option-setting">
+                <div class="option-title">
+                    <p class="title-name">옵션2</p>
+                    <p class="closebtn"></p>
+                </div>
+                <span class="option-setting-name">옵션명</span>
+                <span class="toggle-text">품절
+                    <input type="checkbox" id="chk2">
+                    <label for="chk2" class="toggle"></label></span>
+                <input type="text" placeholder="" value="20kg~30kg">
+                <p class="option-setting-name">가격</p>
+                <input type="text" placeholder="" value="+34,000원">
+            </div>
+            <!--optionsetting-->
+            <div class="option-setting">
+                <div class="option-title">
+                    <p class="title-name">카테고리3</p>
+                    <p class="closebtn"></p>
+                </div>
+                <span class="option-setting-name">옵션명</span>
+                <span class="toggle-text">품절
+                    <input type="checkbox" id="chk3">
+                    <label for="chk3" class="toggle"></label></span>
+                <input type="text" placeholder="" value="20kg~30kg">
+                <p class="option-setting-name">가격</p>
+                <input type="text" placeholder="" value="+57,000원">
+            </div>
+            <!--optionsetting-->
+            <p class="menu1">옵션 추가</p>
+            <div class="option-setting">
+                <span class="option-setting-name">옵션명</span>
+                <input type="text" placeholder="추가할 옵션명을 입력해주세요" value="">
+                <button class="addBtn">추가하기</button>
+            </div>
+            <!--optionsetting-->
+        </section>
+        <!--optioncontainer-->
+    </main>
+    <footer>
+        <button class="foot-btn">적용</button>
+    </footer>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

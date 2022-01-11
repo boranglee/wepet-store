@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
+    <title>위펫-사장님</title>
+    <link href="css/basicoption_setting.css" rel="stylesheet"/>
+    <link href="css/common.css" rel="stylesheet"/>
+    <link href="css/font.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="head">
+            <div class="head__back" onclick="location.href='sales_setting.html'"></div>
+            <div class="head__title">옵션추가</div>
+        </div><!--head-->
+    </header>
+    <main class="main">
+         <div class="basic-option">
+            <div class="basic-option-title">기본정보
+                <span class="basic-option-state">예약불가
+                <input type="checkbox" id="chk1">
+                <label for="chk1" class="toggle"></label></span>
+            </div>
+        </div><!--basicoption-->
+        <section class="setting-list-container">
+            <div class="setting-list">
+                <p class="section-title">카테고리</p>
+                <select class="cate" name="cate">
+                    <option value="cate1">옵션 카테고리 선택</option>
+                    <option value="cate2">카테고리1</option>
+                    <option value="cate3">카테고리2</option>
+                </select>
+            </div>
+            <!--settinglist-->
+            <div class="setting-list">
+                <p class="section-title">옵션명</p>
+                <input type="text" placeholder="옵션명을 입력해주세요." value="">
+            </div>
+            <!--settinglist-->
+            <div class="setting-list">
+                <p class="section-title">가격</p>
+                <span class="basic-option-count">수량옵션
+                    <input type="checkbox" id="chk2" >
+                    <label for="chk2" class="toggle"></label></span>
+                <input type="text" placeholder="" value="0원">
+            </div>
+            <!--settinglist-->
+            <div class="setting-list">
+                <p class="section-title">수량단위</p>
+                <input type="text" placeholder="예 : kg / cm / 개" value="" disabled>
+            </div>
+            <!--settinglist-->
+            <div class="setting-num-container">
+                <div class="setting-num">
+                    <p class="section-title">최소수량</p>
+                    <input type="text" placeholder="최소수량 입력" value="" disabled>
+                </div>
+                <!--settinglist-->
+                <div class="setting-num">
+                    <p class="section-title">최대수량</p>
+                    <input type="text" placeholder="최대수량 입력" value="" disabled>
+                </div>
+                <!--settinglist-->
+            </div>
+            <!--settingnumcontainer-->
+            <div class="setting-list">
+                <p class="section-title">부가설명</p>
+                <input type="text" placeholder="옵션에 대한 설명이 필요한 경우 입력해주세요" value="">
+            </div>
+            <!--settinglist-->
+        </section>
+    </main>
+    <footer>
+        <button class="foot-btn">적용</button>
+    </footer>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
