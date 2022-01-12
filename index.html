@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="user-scalable=no, initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
     <title>위펫-사장님</title>
-    <link href="css/main.css" rel="stylesheet"/>
+    <link href="css/index.css" rel="stylesheet"/>
     <link href="css/common.css" rel="stylesheet"/>
     <link href="css/font.css" rel="stylesheet">
 </head>
@@ -25,17 +25,26 @@
                 <li><a href="order_list.html"><img src="image/orderlist.png"><p>주문내역</p></a></li>
                 <li><a href="booking.html"><img src="image/reservation.png"><p>예약관리</p></a></li>
                 <li><a href="sales_setting.html"><img src="image/product.png"><p>상품관리</p></a></li>
-                <li><a href="review.html"><img src="image/review.png"><p>리뷰관리</p></a></li>
+                <li><a href="review.html"><img src="image/review.png"><p>후기관리</p></a></li>
             </ul>
         </section><!--main__cate-->
         <section class="main__content">
             <div class="notice__title">공지사항</div>
             <ul class="notice__sub">
-                <li>동물 장묘업 등록번호를 확인하세요.<p>2021. 11. 09 오전 10:59</p></li>
-                <li>위펫 서비스 오픈 안내<p>2021. 11. 09 오전 10:59</p></li>
+                <li onclick="location.href='notice_view.html'">동물 장묘업 등록번호를 확인하세요.<p>2021. 11. 09 오전 10:59</p></li>
+                <li onclick="location.href='notice_view.html'">위펫 서비스 오픈 안내<p>2021. 11. 09 오전 10:59</p></li>
             </ul>
+            <!--noticesub-->
         </section>
+        <!--maincontent-->
     </main>
+    <footer>
+        <div class="footer__menu">
+            <span class="footer__menu-help" onclick="location.href='#'">고객센터</span>
+            <span class="fooer__menu-logout" onclick="location.href='#'">로그아웃</span>
+        </div>
+        <!--footermenu-->
+    </footer>
     <script src="js/jquery-3.5.1.js"></script>
     <script src="js/script.js"></script>
 </body>

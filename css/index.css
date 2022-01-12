@@ -93,3 +93,22 @@ header{
     color: #757575;
     text-align: left;
 }
+.footer__menu{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 61px;
+    line-height: 61px;
+    background: #E9EDF2;
+}
+.footer__menu span{
+    color: #616161;
+}
+.footer__menu-help::after{
+    content: '';
+    display: inline-block;
+    width: 1px;
+    height: 10px;
+    border-right: 1px solid #bdbdbd;
+    margin: 0 12px;
+}

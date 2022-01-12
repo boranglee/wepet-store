@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+.notice-top{
+    padding: 24px 16px;
+    border-bottom: 6px solid #dddfe5;
+}
+.notice-title{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 4px;
+    text-align: left;
+}
+.notice-date{
+    color: #757575;
+    text-align: left;
+}
+.notice-content{
+    padding: 24px 16px;
+}
+.notice-content p{
+    text-align: left;
+    font-size: 15px;
+}
