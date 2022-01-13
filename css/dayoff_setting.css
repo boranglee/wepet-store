@@ -54,10 +54,16 @@ select {
     width: 48%;
     height: 48px;
     line-height: 48px;
+    text-align: center;
     text-align: -webkit-center;
     font-size: 15px;
 }
-.fixOff-week{margin-right: 4px;}
+
+.fixOff-week{
+    margin-right: 4px;
+    text-align: center;
+    text-align: -webkit-center;
+}
 .fixOff-day{margin-left: 4px;}
 .fixOff-add {
     width: 100%;
