@@ -12,7 +12,7 @@
     padding: 0 16px;
 }
 .tab_box_container{
-    padding: 0 16px;
+    padding: 0 16px 80px;
 }
 .tab_menu_btn {
     height: 40px;
@@ -70,10 +70,14 @@
     margin: 18px 0;
 }
 .footBtn{
-    padding: 16px;
+    padding: 16px 0;
+    position: fixed;
+    width: 100%;
+    background: #fafafa;
+    bottom: 0;
 }
 .callBtn{
-    width: 48%;
+    width: 46%;
     height: 48px;
     border: 1px solid #4A61A3;
     background: #ffffff;
@@ -85,7 +89,7 @@
     margin-right: 8px;
 }
 .helpBtn{
-    width: 48%;
+    width: 46%;
     height: 48px;
     border: 1px solid #4A61A3;
     background: #4A61A3;
