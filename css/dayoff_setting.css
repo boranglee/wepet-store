@@ -58,7 +58,14 @@ select {
     text-align: -webkit-center;
     font-size: 15px;
 }
-
+option{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    text-align-last: center;
+    text-align: center;
+    -ms-text-align-last: center;
+    -moz-text-align-last: center;
+}
 .fixOff-week{
     margin-right: 4px;
     text-align: center;
@@ -100,7 +107,6 @@ input[type="date"]{
      height: 20px;
      display: inline-block;
      background: url("../image/datepicker.png") no-repeat 0 0 / 20px auto;
-     
  }
  input[type="date"]::-webkit-calendar-picker-indicator {
     position: absolute;
