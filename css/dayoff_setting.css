@@ -54,13 +54,13 @@ select {
     width: 48%;
     height: 48px;
     line-height: 48px;
-    text-align: center;
-    text-align: -webkit-center;
     font-size: 15px;
+    text-align-last: center;
+	text-align: center;
+	-ms-text-align-last: center;
+	-moz-text-align-last: center;
 }
 option{
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
     text-align-last: center;
     text-align: center;
     -ms-text-align-last: center;

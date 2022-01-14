@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+.tab_menu_container {
+    display: flex;
+    line-height: 56px;
+}
+.tab_menu_btn {
+    height:56px;
+    margin:0 auto;
+    width:50%;
+    color:#757575;
+    border-bottom:1px solid #e0e0e0;
+    font-size: 16px;
+}
+.tab_menu_btn.on {
+    border-bottom:4px solid #4A61A3;
+    font-weight:bold;
+    color:#4A61A3;
+    width:50%;
+    font-size: 16px;
+}
+.tab_box_container{
+    padding: 8px 0;
+}
+.tab_box {
+    display:none;
+}
+.tab_box.on {
+    display: block;   
+    padding: 0 16px;
+}
+.qna{padding:8px 0;}
+.qna-title{
+    text-align: left;
+    font-size: 15px;
+    color: #616161;
+    margin-bottom: 4px;
+}
+.qnaSelect{
+    width: 100%;
+    padding: 13px 16px;
+    font-size: 15px;
+    background: #fafafa;
+    border: 1px solid #9e9e9e;
+    border-radius: 4px;
+    background: url('../image/dropdown.png') no-repeat 97% center / 24px auto;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+.qna-text{
+    width: 100%;
+    height: 160px;
+    border: 1px solid #9e9e9e;
+    border-radius: 4px;
+    padding:10px 14px;
+}
+.qna-text::placeholder{
+    color: #9e9e9e;
+}
+.qna-btm{
+    font-size: 12px;
+    font-weight: 500;
+    color: #757575;
+    padding: 10px 16px;
+    background: #F5F5F5;
+    border-radius: 4px;
+    text-align: left;
+    margin: 18px 0;
+}
+.qnaBtn{
+    width: 100%;
+    height: 52px;
+    background: #4A61A3;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 12px;
+}
+.qnaList{
+    padding: 24px 16px;
+    border-bottom: 1px solid #f5f5f5;
+}
+.qnaList p{
+    text-align: left;
+}
+.qnaList-title{
+    font-weight: 500;
+    font-size: 16px;
+}
+.qnaList-title::before{
+    content: 'Q.';
+    display:inline-block;
+    color: #4A61A3;
+    margin-right: 6px;
+}
+.qnaList-date{
+    margin-top: 4px;
+    color: #757575;
+}
+.no-comment::after{
+    content: '답변대기';
+    font-size: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 3px 5px;
+    background: #bdbdbd;
+    border-radius: 2px;
+    margin-left: 8px;
+}
+.comment::after{
+    content: '답변완료';
+    font-size: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 3px 5px;
+    background: #5090FF;
+    border-radius: 2px;
+    margin-left: 8px;
+}
+.qnaList-sub{
+    width: 100%;
+    background: #F6F7FC;
+    padding: 24px 16px 8px;
+}
+.qnaList-sub dl{
+    margin-bottom: 16px;
+}
+.qnaList-sub dt{
+    font-weight: bold;
+    color: #424242;
+    margin-bottom: 4px;
+    text-align: left;
+}
+.qnaList-sub dd{
+    font-size: 15px;
+    color: #424242;
+    text-align: left;
+}

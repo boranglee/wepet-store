@@ -84,10 +84,6 @@ input, button, textarea {
 select {
     box-sizing: border-box;
 	-webkit-box-sizing: border-box;
-	text-align-last: center;
-	text-align: center;
-	-ms-text-align-last: center;
-	-moz-text-align-last: center;
 }
 input[type="text"] {
 	font-size: 15px;
