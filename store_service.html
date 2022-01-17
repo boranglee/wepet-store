@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
+    <title>위펫-사장님</title>
+    <link href="css/store_service.css" rel="stylesheet"/>
+    <link href="css/common.css" rel="stylesheet"/>
+    <link href="css/font.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="head">
+            <div class="head__back" onclick="location.href='store_info.html'"></div>
+            <div class="head__title">업체서비스</div>
+        </div><!--head-->
+    </header>
+    <main class="main">
+      <section class="notice">
+          <p>업체에서 제공하는 서비스에 모두 체크해 주세요.</p>
+      </section>
+      <!--notice-->
+      <section class="serviceList">
+        <div class="service-title">픽업/대행</div>
+        <ul class="service-content">
+            <li>
+                <input type='checkbox' id='checkbox1' name='check1' value='check'/>
+                <label for="checkbox1"></label>픽업
+            </li>
+            <li>
+                <input type='checkbox' id='checkbox2' name='check1' value='check'/>
+                <label for="checkbox2"></label>대행
+            </li>
+        </ul>
+      </section>
+      <section class="serviceList">
+        <div class="service-title">장례 방식</div>
+        <ul class="service-content">
+            <li>
+                <input type='checkbox' id='checkbox3' name='check2' value='check'/>
+                <label for="checkbox3"></label>화장
+            </li>
+            <li>
+                <input type='checkbox' id='checkbox4' name='check2' value='check'/>
+                <label for="checkbox4"></label>건조장
+            </li>
+            <li>
+                <input type='checkbox' id='checkbox5' name='check2' value='check'/>
+                <label for="checkbox5"></label>수분해장
+            </li>
+        </ul>
+      </section>
+      <!--serviceList-->
+      <section class="serviceList">
+        <div class="service-title">안치 방식</div>
+        <ul class="service-content">
+            <li>
+                <input type='checkbox' id='checkbox6' name='check3' value='check'/>
+                <label for="checkbox6"></label>봉안
+            </li>
+            <li>
+                <input type='checkbox' id='checkbox7' name='check3' value='check'/>
+                <label for="checkbox7"></label>산골
+            </li>
+            <li>
+                <input type='checkbox' id='checkbox8' name='check3' value='check'/>
+                <label for="checkbox8"></label>수목장
+            </li>
+            <li>
+                <input type='checkbox' id='checkbox9' name='check3' value='check'/>
+                <label for="checkbox9"></label>화분장
+            </li>
+        </ul>
+      </section>
+      <!--serviceList-->
+      <section class="serviceList">
+        <div class="service-title">기타</div>
+        <ul class="service-content">
+            <li>
+                <input type='checkbox' id='checkbox10' name='check4' value='check'/>
+                <label for="checkbox10"></label>봉안
+            </li>
+            <li>
+                <input type='checkbox' id='checkbox11' name='check4' value='check'/>
+                <label for="checkbox11"></label>산골
+            </li>
+        </ul>
+      </section>
+      <!--serviceList-->
+    </main>
+    <footer>
+        <button class="foot-btn">적용</button>
+    </footer>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
