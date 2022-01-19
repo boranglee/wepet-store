@@ -138,20 +138,18 @@
     text-align: left;
     font-size: 15px;
     color: #424242;
-    width: 20%;
     display: block;
 } 
 .bookingInfo-sub .subTitle{
     text-align: left;
     font-size: 15px;
     color: #424242;
-    width: 30%;
     display: block;
 }
 .orderInfo-sub .subContent{
     text-align: right;
     float: right;
-    width: 85%;
+    flex: 1;
     display: block;
     font-size: 15px;
 }
@@ -161,7 +159,7 @@
 }
 .bookingInfo-sub .subContent{
     text-align: right;
-    width: 65%;
+    flex: 1;
     display: block;
     font-size: 15px;
 }
