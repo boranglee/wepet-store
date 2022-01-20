@@ -14,21 +14,27 @@
         <div class="head">
             <div class="head__back" onclick="location.href='order_list.html'"></div>
             <div class="head__title">내역상세</div>
-        </div><!--head-->
+        </div>
+        <!--head-->
     </header>
     <main class="main">
         <section class="order-top">
             <p class="order-delReady">배송준비</p>
-            <p class="order-name">럭셔리 소나무관 (10kg~15kg)</p>
-            <p class="order-pay">80,000 (카드결제)</p>
-            <p class="order-date">2021. 11. 23 오전 10:10</p>
+            <ul>
+                <li class="order-name">럭셔리 소나무관 (10kg~15kg)</li>
+                <li class="order-pay">80,000 (카드결제)</li>
+                <li class="order-date">2021. 11. 23 오전 10:10</li>
+            </ul>
             <button class="delBtn" onclick="location.href='#'">
                 <p>배송출발</p>
-            </button><!--delbtn-->
+            </button>
+            <!--delbtn-->
             <button class="cancelBtn" onclick="location.href='#'">
                 <p>주문취소</p>
-            </button><!--cancel-->
-        </section><!--ordertop-->
+            </button>
+            <!--cancel-->
+        </section>
+        <!--ordertop-->
         <section class="orderInfo">
             <div class="orderInfo-title">주문정보</div>
             <div class="orderInfo-sub">
@@ -38,7 +44,8 @@
                     <li><span class="subTitle">배송주소</span><span class="subContent adr1">전라북도 전주시 완산구 홍산북로 60-10<p class="subContent adr2">전라북도 전주시 완산구 효자동 60-10</p></span></li>
                 </ul>
             </div>
-        </section><!--orderinfo-->
+        </section>
+        <!--orderinfo-->
         <section class="orderList">
             <p class="orderList-title">예약내역</p>
             <div class="orderList-bg">
@@ -46,15 +53,20 @@
                 <ul class="orderList-list-sub">
                     <li>10kg~15kg</li>
                 </ul>
-            </div><!--orderlistbg-->
-            <div class="order-pay">
-                <p>주문금액<span>80,000원</span></p>
-                <p>배송비<span>0원</span></p>
-            </div><!--orderpay-->
-        </section><!--orderlist-->
+            </div>
+            <!--orderlistbg-->
+            <ul class="order-pay">
+                <li>주문금액<span>80,000원</span></li>
+                <li>배송비<span>0원</span></li>
+            </ul>
+            <!--orderpay-->
+        </section>
+        <!--orderlist-->
         <section class="total-price">
-            <p>총 결제금액<span>270,000원</span></p>
-            <p>결제수단<span>카드결제</span></p>
+            <ul>
+                <li>결제금액<span>270,000원</span></li>
+                <li>결제수단<span>카드결제</span></li>
+            </ul>
         </section>
     </main>
     <script src="js/jquery-3.5.1.js"></script>

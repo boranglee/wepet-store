@@ -14,21 +14,27 @@
         <div class="head">
             <div class="head__back" onclick="location.href='order_list.html'"></div>
             <div class="head__title">내역상세</div>
-        </div><!--head-->
+        </div>
+        <!--head-->
     </header>
     <main class="main">
         <section class="order-top">
             <p class="order-receptionWait">접수대기</p>
-            <p class="order-name">꿈나라 애견 장례식장</p>
-            <p class="order-bookDate">예약일시 : 2021-11-23 16시 00분</p>
-            <p class="order-date">2021. 11. 23 오전 10:10</p>
+            <ul>
+                <li class="order-name">김아람 (멍뭉이)</li>
+                <li class="order-bookDate">예약일시 : 2021-11-23 16시 00분</li>
+                <li class="order-date">2021. 11. 23 오전 10:10</li>
+            </ul>
             <button class="orderBtn" onclick="location.href='#'">
                 <p>예약 접수하기</p>
-            </button><!--orderbtn-->
+            </button>
+            <!--orderbtn-->
             <button class="cancelBtn" onclick="location.href='#'">
                 <p>접수취소</p>
-            </button><!--cancel-->
-        </section><!--bookingtop-->
+            </button>
+            <!--cancel-->
+        </section>
+        <!--bookingtop-->
         <section class="bookingInfo">
             <div class="bookingInfo-title">예약정보</div>
             <div class="bookingInfo-sub">
@@ -39,7 +45,8 @@
                     <li><span class="subTitle">픽업주소</span><span class="subContent">픽업안함</span></li>
                 </ul>
             </div>
-        </section><!--bookinginfo-->
+        </section>
+        <!--bookinginfo-->
         <section class="bookingList">
             <p class="bookingList-title">예약내역</p>
             <div class="bookingList-bg">
@@ -52,10 +59,17 @@
                     <li>삼베수의</li>
                     <li>메모리얼스톤<span>+70,000원</span></li>
                 </ul>
-            </div><!--bookinglistbg-->
-        </section><!--bookinglist-->
+            </div>
+            <!--bookinglistbg-->
+            <ul class="booking-price">
+                <li>총 예약금액<span>270,000원</span></li>
+                <li>예약금 (선결제)<span>30,000원</span></li>
+            </ul>
+            <!--bookingprice-->
+        </section>
+        <!--bookinglist-->
         <section class="total-price">
-            <p>총 결제금액<span>270,000원</span></p>
+            <p>결제금액<span>270,000원</span></p>
         </section>
     </main>
     <script src="js/jquery-3.5.1.js"></script>

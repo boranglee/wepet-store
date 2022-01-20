@@ -14,15 +14,19 @@
         <div class="head">
             <div class="head__back" onclick="location.href='order_list.html'"></div>
             <div class="head__title">내역상세</div>
-        </div><!--head-->
+        </div>
+        <!--head-->
     </header>
     <main class="main">
         <section class="order-top">
             <p class="order-end">완료</p>
-            <p class="order-name">꿈나라 애견 장례식장</p>
-            <p class="order-bookDate">예약일시 : 2021-11-23 16시 00분</p>
-            <p class="order-date">2021. 11. 23 오전 10:10</p>
-        </section><!--bookingtop-->
+            <ul>
+                <li class="order-name">김아람 (멍뭉이)</li>
+                <li class="order-bookDate">예약일시 : 2021-11-23 16시 00분</li>
+                <li class="order-date">2021. 11. 23 오전 10:10</li>
+            </ul>
+        </section>
+        <!--bookingtop-->
         <section class="bookingInfo">
             <div class="bookingInfo-title">예약정보</div>
             <div class="bookingInfo-sub">
@@ -33,7 +37,8 @@
                     <li><span class="subTitle">픽업주소</span><span class="subContent">픽업안함</span></li>
                 </ul>
             </div>
-        </section><!--bookinginfo-->
+        </section>
+        <!--bookinginfo-->
         <section class="bookingList">
             <p class="bookingList-title">예약내역</p>
             <div class="bookingList-bg">
@@ -46,11 +51,22 @@
                     <li>삼베수의</li>
                     <li>메모리얼스톤<span>+70,000원</span></li>
                 </ul>
-            </div><!--bookinglistbg-->
-        </section><!--bookinglist-->
-        <section class="total-price">
-            <p>총 결제금액<span>270,000원</span></p>
+            </div>
+            <!--bookinglistbg-->
+            <ul class="booking-price">
+                <li>총 예약금액<span>270,000원</span></li>
+                <li>예약금 (선결제)<span>-30,000원</span></li>
+            </ul>
+            <!--bookingprice-->
         </section>
+        <!--bookinglist-->
+        <section class="total-price">
+            <ul>
+                <li>결제금액<span>270,000원</span></li>
+                <li>결제수단<span>카드결제</span></li>
+            </ul>
+        </section>
+        <!--totalprice-->
     </main>
     <footer>
         <button class="deleteBtn" onclick="location.href='#'"><p>주문내역 삭제</p></button>
