@@ -29,12 +29,7 @@ input[type="date"]{
    background: #ffffff;
 }
 
-.booking--date-set img{
-  width: 20px;
-  height: 20px;
-  vertical-align: bottom;
-  margin-right: 8px;
-}
+
 .booking--time{
     padding:0 16px;
 }
