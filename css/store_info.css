@@ -61,6 +61,12 @@ input[type="file"]{
     background: #eeeeee;
     margin: 4px auto;
 }
+.basicInfo-img-text{
+    text-align: left;
+    font-size: 12px;
+    color: #5090FF;
+    margin-top: 4px;
+}
 .inputImg, 
 .deliveryInfo, 
 .storeService, 
