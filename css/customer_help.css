@@ -43,6 +43,7 @@
     border-radius: 4px;
     padding: 13.5px 14px;
     font-weight: bold;
+    display: flex;
 }
 .q-list-title::before{
     content: 'Q.';
