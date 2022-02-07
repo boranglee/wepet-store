@@ -63,7 +63,9 @@ option{
     -moz-text-align-last: center;
 }
 .fixOff-week{
-    
+    width: 49%;
+    height: 48px;
+    line-height: 48px;
 }
 .fixOff-day{
     
