@@ -51,19 +51,25 @@ select {
     appearance: none;
     border: 1px solid #aaa;
     border-radius:4px;
-    font-size: 15px;
+    text-align-last: center;
+	text-align: center;
+	-ms-text-align-last: center;
+	-moz-text-align-last: center;
 }
 option{
-
+    text-align-last: center;
+    text-align: center;
+    -ms-text-align-last: center;
+    -moz-text-align-last: center;
 }
 .fixOff-week{
-    width: 49%;
-    padding: 13px 62px;
+    margin-right: 4px;
+    width: 48%;
+    height: 48px;
+    line-height: 48px;
+    font-size: 15px;
 }
-.fixOff-day{
-    padding: 13px 71px;
-    width: 49%;
-}
+.fixOff-day{margin-left: 4px;}
 .fixOff-add {
     width: 100%;
     height: 52px;
