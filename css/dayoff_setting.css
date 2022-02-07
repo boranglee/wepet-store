@@ -52,11 +52,10 @@ select {
     border: 1px solid #aaa;
     border-radius:4px;
     font-size: 15px;
-    padding: 13px ;
-    width:132px;
+    padding: 13px 15%;
 }
 option{
-    text-align: right;
+
 }
 .fixOff-week{
 }
