@@ -45,15 +45,14 @@ input:checked + .toggle {
 input:checked + .toggle:after{
     right:calc(100% - 48.8px);
 }
-.select-flex{
-    display: flex;
-}
 select {
     -moz-appearance: none;
     -webkit-appearance: none;
     appearance: none;
     border: 1px solid #aaa;
     border-radius:4px;
+    height: 48px;
+    line-height: 48px;
     text-align-last: center;
 	text-align: center;
 	-ms-text-align-last: center;
@@ -65,6 +64,9 @@ option{
     -ms-text-align-last: center;
     -moz-text-align-last: center;
 }
+.select-flex{
+    display: flex;
+}
 .fixOff-week{
     padding: 0 16%;
     height: 48px;
@@ -74,6 +76,8 @@ option{
 .fixOff-day{
     padding: 0 18%;
     flex: 1;
+    height: 48px;
+    line-height: 48px;
 }
 .fixOff-add {
     width: 100%;
