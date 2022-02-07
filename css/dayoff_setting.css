@@ -57,10 +57,12 @@ option{
 
 }
 .fixOff-week{
-    padding: 13px 15%;
+    width: 49%;
+    padding: 13px 62px;
 }
 .fixOff-day{
-    padding: 13px 17.5%;
+    padding: 13px 71px;
+    width: 49%;
 }
 .fixOff-add {
     width: 100%;
