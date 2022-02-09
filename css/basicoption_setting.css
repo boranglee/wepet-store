@@ -11,9 +11,14 @@
     font-weight: bold;
     text-align: left;
 }
+.basic-option-state{
+    float: right;
+    color: #EF4034;
+    margin-bottom: 4px;
+    font-weight: 400;
+}
 .basic-option-count{
     float: right;
-    font-weight: 400;
     color: #5090FF;
     margin-bottom: 4px;
 }
@@ -139,7 +144,7 @@ textarea::placeholder{
     margin-right: 2px;
     background: url("../image/add.png") no-repeat 0 -1px / 24px auto;
 }
- .foot-btn{
+.foot-btn{
     font-size: 16px;
     font-weight: bold;
     color: #ffffff;
@@ -149,4 +154,4 @@ textarea::placeholder{
     position: fixed;
     display: block;
     bottom: 0;
- } 
+} 
