@@ -107,7 +107,7 @@
     display: inline-block;
     width:24px;
     height:24px;
-    background: url("../image/date_icon.png") no-repeat 0 -1px /24px auto;
+    background: url("../image/datepicker_white.png") no-repeat 0 -1px /24px auto;
     vertical-align: middle;
     margin-right: 5px;
 }
