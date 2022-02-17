@@ -111,7 +111,6 @@ input[type="date"]::before{
     content: '';
     width: 20px;
     height: 20px;
-    margin:0 -16px 0 16px;
     display: inline-block;
     background: url("../image/datepicker.png") no-repeat 0 0 / 20px auto;
 }

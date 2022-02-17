@@ -147,16 +147,17 @@ input[type="file"]{display: none;}
     object-position: center;
     border-radius: 4px;
 }
-.preview li::before{
+.preview li span::after{
     content: '';
     position: absolute;
     margin:7px;
     right: 0;
     width: 20px;
     height: 20px;
+    opacity: 90% ;
     background: url("../image/close_btn.png") no-repeat 0 0 / 20px auto;
 }
- .foot-btn{
+.foot-btn{
     font-size: 16px;
     font-weight: bold;
     color: #ffffff;
@@ -166,4 +167,4 @@ input[type="file"]{display: none;}
     position: fixed;
     display: block;
     bottom: 0;
- } 
+} 
