@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
+    <title>위펫-사장님</title>
+    <link href="css/delStart.css" rel="stylesheet"/>
+    <link href="css/common.css" rel="stylesheet"/>
+    <link href="css/font.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="head">
+            <div class="head__back" onclick="location.href='order_list.html'"></div>
+            <div class="head__title">배송출발</div>
+        </div>
+        <!--head-->
+    </header>
+    <main class="main">
+        <div class="notice">
+            <p>여러 상품을 묶음발송한 경우 '변경'메뉴를 통해 발송 품목을 모두 체크해 주세요.</p>
+        </div>
+        <section class="delList">
+            <p class="delList-title">배송품목</p>
+            <button class="editBtn" onclick="location.href='delStartList.html'">변경</button>
+            <div class="delList-bg">
+                <div class="delList-list">
+                    <dl>
+                        <dt>럭셔리 소나무관</dt>
+                        <dd>10kg~15kg</dd>
+                    </dl>
+                    <p class="delList-list-price">80,000원 ⨉ 1개</p>
+                </div>
+                <!--delListlist-->
+            </div>
+            <!--delListbg-->
+        </section>
+        <!--delList-->
+        <section class="delInfo">
+            <p class="delInfo-title">배송정보</p>
+            <div class="selectCom">
+                <p class="select-title">택배회사</p>
+                <select class="selectCom-cate" name="selectCom-cate">
+                    <option value="cate1">우체국택배</option>
+                    <option value="cate2">대한통운</option>
+                    <option value="cate3">롯데택배</option>
+                </select>
+            </div>
+            <!--selectCom-->
+            <div class="invoice">
+                <p class="invoice-title">송장번호</p>
+                <input type="text" value="123456789">
+            </div>
+            <!--invoice-->
+            <button class="submitBtn">완료</button>
+        </section>
+        <!--delInfo-->
+    </main>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/jquery.scrollToGiveClass.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

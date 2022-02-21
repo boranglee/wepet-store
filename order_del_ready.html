@@ -25,14 +25,20 @@
                 <li class="order-pay">80,000 (카드결제)</li>
                 <li class="order-date">2021. 11. 23 오전 10:10</li>
             </ul>
-            <button class="delBtn" onclick="location.href='#'">
+            <button class="delBtn" onclick="location.href='delStart.html'">
                 <p>배송출발</p>
             </button>
             <!--delbtn-->
-            <button class="cancelBtn" onclick="location.href='#'">
-                <p>주문취소</p>
-            </button>
-            <!--cancel-->
+            <div class="order-top-btn">
+                <button class="delayBtn" onclick="location.href='delDelay.html'">
+                    <p>배송지연</p>
+                </button>
+                <button class="cancelBtn" onclick="location.href='#'">
+                    <p>주문취소</p>
+                </button>
+                <!--cancel-->
+            </div>
+            <!--ordertopbtn-->
         </section>
         <!--ordertop-->
         <section class="orderInfo">
@@ -49,10 +55,14 @@
         <section class="orderList">
             <p class="orderList-title">주문내역</p>
             <div class="orderList-bg">
-                <p class="orderList-list-title">럭셔리 소나무 관<span>80,000원 × 1개</span></p>
-                <ul class="orderList-list-sub">
-                    <li>10kg~15kg</li>
-                </ul>
+                <p class="order-delReady">배송준비</p>
+                <div class="orderList-list">
+                    <dl>
+                        <dt class="orderList-list-title">럭셔리 소나무 관</dt>
+                        <dd class="orderList-list-sub">10kg~15kg</dd>
+                    </dl>
+                    <div class="orderList-list-price">80,000원 × 1개</div>
+                </div>
             </div>
             <!--orderlistbg-->
             <ul class="order-pay">

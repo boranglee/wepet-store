@@ -10,6 +10,11 @@
 .order-delReady, 
 .order-receptionWait{
     color: #FF6250;
+    text-align: left;
+}
+.order-delDelay{
+    color: #ff900e;
+    text-align: left;
 }
 .order-paywait{
     color:#7B61FF;
@@ -17,14 +22,17 @@
 .order-delIng, 
 .order-bookDone{
     color: #5090FF;
+    text-align: left;
 }
-.order_delDone, 
+.order-delDone, 
 .order-end{
     color: #757575;
+    text-align: left;
 }
 .order-delCancel, 
 .order-cancel{
     color:#BDBDBD;
+    text-align: left;
 }
 .order-name{
     font-size: 20px;
@@ -88,6 +96,17 @@
     vertical-align: middle;
     margin-right: 5px;
 }
+.order-top-btn{
+    display: flex;
+}
+.delayBtn{
+    margin:16px 8px 0 0;
+    border:1px solid #9e9e9e;
+    border-radius: 4px;
+    width: 100%;
+    height: 48px;
+    box-shadow: 0 2px 5px rgb(0 0 0 / 12%);
+}
 .cancelBtn{
     margin-top: 16px;
     border:1px solid #9e9e9e;
@@ -96,6 +115,7 @@
     height: 48px;
     box-shadow: 0 2px 5px rgb(0 0 0 / 12%);
 }
+.delayBtn p, 
 .cancelBtn p{
     font-size: 16px;
     text-align: center;
@@ -182,38 +202,79 @@
 .bookingList-bg{
     background: #F5F5F5;
     border-radius: 4px;
-    padding:16px 14px;
+    padding:16px 14px 0;
     margin:16px 0 16px;
+}
+.orderList-content{
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 16px;
+    position: relative;
+}
+.orderList-list{
+    display: flex;
+    align-items: center;
+}
+.orderList-list dl{
+    text-align: left;
+    flex: 1;
 }
 .orderList-list-title, 
 .bookingList-list-title{
     text-align: left;
     font-size: 15px;
+    margin-top: 4px;
 }
-.orderList-list-title span, 
+.orderList-list-sub{
+    text-align: left;
+    color: #757575;
+    margin-bottom: 16px;
+}
+.orderList-list-sub::before{
+    content: '•';
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 3px;
+}
+.order-delayInfo, 
+.order-delInfo{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 12px;
+    font-weight: 500;
+    background: #ffffff;
+    color: #616161;
+    border: 1px solid #9e9e9e;
+    border-radius: 2px;
+}
+.orderList-list-price{
+    text-align:right;
+    font-size: 15px;
+}
+.orderList-content:last-child{
+    border: none;
+}
 .bookingList-list-title span{
     float: right;
     font-size: 15px;
 }
-.orderList-sub ul,  
 .bookingList-sub ul{
     width: 70%;
 }
-.orderList-sub li, 
 .bookingList-sub li{
     text-align: left;
 }
-.orderList-list-sub, 
 .bookingList-list-sub{
     margin-top: 2px;
+    padding-bottom: 16px;
 }
-.orderList-list-sub li, 
 .bookingList-list-sub li{
     color: #757575;
     text-align: left;
     line-height: 1.5em;
 }
-.orderList-list-sub li:before, 
 .bookingList-list-sub li::before{
     content: '•';
     width: 14px;
@@ -222,7 +283,6 @@
     text-align: center;
     margin: 0 3px;
 }
-.orderList-list-sub li span, 
 .bookingList-list-sub li span{
     float: right;
     color: #757575;

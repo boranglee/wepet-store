@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
+    <title>위펫-사장님</title>
+    <link href="css/delStartList.css" rel="stylesheet"/>
+    <link href="css/common.css" rel="stylesheet"/>
+    <link href="css/font.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="head">
+            <div class="head__back" onclick="location.href='delDelay.html'"></div>
+            <div class="head__title">배송지연</div>
+        </div>
+        <!--head-->
+    </header>
+    <main class="main">
+        <div class="menu">지연품목</div>
+        <section class="main_delList">
+            <div class="delList">
+                <div class="delList-list">
+                    <p class="chkBtn">
+                        <input type="checkbox" id="checkbox1" />
+                        <label for="checkbox1"></label>
+                    </p>
+                    <p class="delList-list-img"><img src="image/no_image_w.png"></p>
+                    <dl class="delList-list-sub">
+                        <dt>럭셔리 소나무 관</dt>
+                        <dd>수량 : n개</dd>
+                    </dl>
+                </div>
+                <!--delListlist-->
+                <dl class="delList-opt">
+                    <dt>선택옵션</dt>
+                    <dd>10~15kg</dd>
+                </dl>
+            </div><!--dellist-->
+            <div class="delList">
+                <div class="delList-list">
+                    <p class="chkBtn">
+                        <input type="checkbox" id="checkbox2" />
+                        <label for="checkbox2"></label>
+                    </p>
+                    <p class="delList-list-img"><img src="image/no_image_w.png"></p>
+                    <dl class="delList-list-sub">
+                        <dt>오동나무 관</dt>
+                        <dd>수량 : n개</dd>
+                    </dl>
+                </div>
+                <!--delListlist-->
+            </div><!--dellist-->
+            <button class="submitBtn">선택완료</button>
+        </section>
+    </main>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/jquery.scrollToGiveClass.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

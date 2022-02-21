@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
+    <title>위펫-사장님</title>
+    <link href="css/delDelay.css" rel="stylesheet"/>
+    <link href="css/common.css" rel="stylesheet"/>
+    <link href="css/font.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="head">
+            <div class="head__back" onclick="location.href='order_list.html'"></div>
+            <div class="head__title">배송지연</div>
+        </div>
+        <!--head-->
+    </header>
+    <main class="main">
+        <div class="notice">
+            <p>업체정보에서 작성한 평균 배송기간을 넘겼을 경우 구매자에게 배송지연 안내를 권장합니다.</p>
+        </div>
+        <section class="delList">
+            <p class="delList-title">지연품목</p>
+            <button class="editBtn" onclick="location.href='delDelayList.html'">변경</button>
+            <div class="delList-bg">
+                <div class="delList-list">
+                    <dl>
+                        <dt>럭셔리 소나무관</dt>
+                        <dd>10kg~15kg</dd>
+                    </dl>
+                    <p class="delList-list-price">80,000원 ⨉ 1개</p>
+                </div>
+                <!--delListlist-->
+            </div>
+            <!--delListbg-->
+        </section>
+        <!--delList-->
+        <section class="delayInfo">
+            <p class="delayInfo-title">지연정보</p>
+            <div class="selectDel">
+                <p class="select-title">지연사유</p>
+                <select class="selectDel-cate" name="selectCom-cate">
+                    <option value="cate1">입고지연</option>
+                    <option value="cate2">지연지연</option>
+                    <option value="cate3">지연지연</option>
+                </select>
+            </div>
+            <!--selectCom-->
+            <div class="delDate">
+                <p class="delDate-title">발송예정일</p>
+                <input type="date" class="date" value="2021-12-20">
+            </div>
+            <!--invoice-->
+            <button class="submitBtn" onclick="location.href='#'">완료</button>
+        </section>
+        <!--delInfo-->
+    </main>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/jquery.scrollToGiveClass.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
