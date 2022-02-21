@@ -84,6 +84,8 @@
     padding:13px;
     background: #fafafa;
     border-radius: 4px;
+    height: 48px;
+    line-height: 48px;
 }
 .date{
     width: 100%;
@@ -91,6 +93,7 @@
     border: 1px solid #9e9e9e;
     border-radius: 4px;
     padding: 0 16px;
+    background: #ffffff;
 }
 .delDate{
     margin-top: 16px;
