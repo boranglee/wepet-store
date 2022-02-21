@@ -248,6 +248,7 @@
     color: #616161;
     border: 1px solid #9e9e9e;
     border-radius: 2px;
+    padding: 3px 5px;
 }
 .orderList-list-price{
     text-align:right;
@@ -326,9 +327,6 @@
     float: right;
     font-size: 16px;
 }
-
-
-
 .modal {
     display: none; 
     position: fixed;
