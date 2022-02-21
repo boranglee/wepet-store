@@ -59,3 +59,31 @@ $(document).ready(function(){
     });
   });
 })(jQuery);
+
+let modals = document.getElementsByClassName("modal");
+let modalBtns = document.getElementsByClassName("modalBtn");
+let spanes = document.getElementsByClassName("close");
+let funcs = [];
+
+function Modal(num) {
+    return function () {
+        modalBtns[num].onclick = function () {
+            modals[num].style.display = "block";
+            // console.log(num);
+        };
+        spanes[num].onclick = function () {
+            modals[num].style.display = "none";
+        };
+    };
+}
+for (let i = 0; i < modalBtns.length; i++) {
+    funcs[i] = Modal(i);
+}
+for (let j = 0; j < modalBtns.length; j++) {
+    funcs[j]();
+}
+window.onclick = function (event) {
+    if (event.target.className == "modal") {
+        event.target.style.display = "none";
+    }
+};
